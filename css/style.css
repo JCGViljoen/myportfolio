@@ -3,11 +3,260 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    padding-top: 25vh;
+}
+
 nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25vh;
+    width: 100%;
+    background-color: black;
+    z-index: 1000000;
+
+}
+nav h1{
+    padding-left: 2rem;
+    color: beige;
+    cursor: pointer;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 2rem;
+
+} 
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+    transition: 0.4s;
+}
+span{
+    color: #f9004d;
+}
+
+.profile-card{
+    height: 300px;
+    width: 100%;
+    background-color: black;   
+    display: flex;
+    /* top: 55%; */
+    /* transform: translateY(-50%); */
+    
+}
+.profilepic{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    /* position: absolute; */
+    /* transform: translateX(500%); */
+    cursor: pointer;
+}
+.skills .btn {
+    background-color: #f9004d;
+    border: solid;
+    border-radius: 2rem;
+    padding-left: 2rem; ;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .skills .btn a{
+    text-decoration: none;
+    color: black;
+  }
+  /* Darker background on mouse-over */
+.skills .btn:hover {
+    background-color: beige;
+    color: #f9004d;
+  }
+.profile-wording{
+    color: beige;
+    padding-left: 2rem;
+}
+
+.bio-pic{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+}
+
+#testimonials .container{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+}
+.form{
+    width: 20rem;
+    margin-left: 20px;
+    padding: 15px;
+    border: 4px double black;
+    border-radius: 10%;
+    justify-content: center;
+    background-color: black;
+    color:beige;
+    padding-bottom: 10px;
+    /* padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: black */
+    
+}
+
+.contact-container{
+
+    border: double black;
+    width: 200px;
+    background-color:#D3D3D3;
+}
+
+.skills-education{
     display: flex;
     justify-content: center;
+    
+}
+.skills{
+    align-items: center;
 }
 
-span{
 
+
+
+
+
+.end{
+    color: black;
+    
 }
+.end p{
+    background-color: #f9004d;
+    align-items: end;
+    
+}
+
+.container{
+    transform-style: preserve-3d;
+}
+
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.container .box .body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+}
+
+
+
+.container .box .body .imgContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.container .box .body .imgContainer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .box .body .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+
+.container .box:hover .body{
+    transform: rotateY(180deg);
+}
+
+.container .box .body .content div{
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(45deg, #FE0061,#FFEB3B);
+    transform: translateZ(100px);
+}
+
+.container .box .body .content div h3{
+    letter-spacing: 1px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+    width: 100%;
+    padding-top: 2rem;
+    background-color: black;
+}
+.contact-details{
+    color: beige;
+}
+
+.contact-details ul li{
+            text-decoration: none;
+            list-style-type: square;
+            color: beige;
+}
+
+    
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects .projectitems{
+    border: black double;
+    
+    background-image: url(./images/);
+}
+.projectbtn{
+    text-decoration: none;
+    color: beige;
+    
+    background-color: #333;
+}
+.projectbtn:hover{
+    background-color: #f9004d;
+    color: black;
+}
+
