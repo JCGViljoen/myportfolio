@@ -264,3 +264,10 @@ span{
 h4{
     margin-top: 1rem;
 }
+.icons-section ul a{
+    text-decoration: none;
+}
+
+@media 650 and (
+    
+)
