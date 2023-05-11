@@ -241,13 +241,11 @@ span{
 .projects{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
 }
 
 .projects .projectitems{
-    border: black double;
-    
-    background-image: url(./images/);
+    color: #f9004d;   
 }
 .projectbtn{
     text-decoration: none;
@@ -260,3 +258,9 @@ span{
     color: black;
 }
 
+.bars{
+    margin-top: 1rem;
+}
+h4{
+    margin-top: 1rem;
+}
