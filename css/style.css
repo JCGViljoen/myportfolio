@@ -48,8 +48,7 @@ span{
     width: 100%;
     background-color: black;   
     display: flex;
-    /* top: 55%; */
-    /* transform: translateY(-50%); */
+    
     
 }
 .profilepic{
@@ -57,8 +56,6 @@ span{
     height: 150px;
     border-radius: 50%;
     display: flex;
-    /* position: absolute; */
-    /* transform: translateX(500%); */
     cursor: pointer;
 }
 .skills .btn {
@@ -75,7 +72,6 @@ span{
     text-decoration: none;
     color: black;
   }
-  /* Darker background on mouse-over */
 .skills .btn:hover {
     background-color: beige;
     color: #f9004d;
@@ -92,11 +88,7 @@ span{
     display: flex;
 }
 
-/* #testimonials .container{
-    display: flex;
-    /* flex-direction: row; */
-    /* align-items: center;
-    justify-content: space-between; */ 
+
 
 .form{
     width: 20rem;
@@ -108,11 +100,7 @@ span{
     background-color: black;
     color:beige;
     padding-bottom: 10px;
-    /* padding-bottom: 2%;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    background-color: black */
+    
     
 }
 
