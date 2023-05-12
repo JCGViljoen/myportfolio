@@ -22,7 +22,7 @@ nav{
 
 nav h1{
     padding-left: 2rem;
-    color: beige;
+    color: black;
     cursor: pointer;
 }
 nav ul li {
@@ -33,7 +33,7 @@ nav ul li {
 } 
 nav ul li a{
     text-decoration: none;
-    color: beige;
+    color: black;
 }
 
 nav ul li a:hover{
@@ -53,11 +53,7 @@ span{
     
     
 }
-@media screen and (max-width: 300px){
-    .profile-card{
-        background-size: cover
-    }
-}
+
 
 .profilepic{
     width: 200px;
@@ -222,13 +218,13 @@ span{
 
 }
 .contact-details{
-    color: beige;
+    color: black;
 }
 
 .contact-details ul li{
             text-decoration: none;
             list-style-type: square;
-            color: beige;
+            color: black;
 }
 .projects-container{
     display: flex;
@@ -279,4 +275,30 @@ h4{
         display: none;
     } 
                 
+}
+@media screen and (max-width: 300px){
+    .body{
+width: min-content;
+padding-right: 0;
+margin: 0;
+    }        
+}
+@media screen and(max-width:300px) {
+    .form{
+        width: 10rem;
+        margin-left: 20px;
+        padding: 15px;
+        border: 4px double black;
+        border-radius: 10%;
+        justify-content: center;
+        background-color: black;
+        color:beige;
+    }
+    
+}
+@media screen and (max-width: 300px){
+    .profile-card{
+        background-size: cover;
+        
+    }
 }
