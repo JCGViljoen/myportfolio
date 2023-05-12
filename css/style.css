@@ -231,16 +231,26 @@ span{
             list-style-type: square;
             color: beige;
 }
-
-    
-.projects{
+.projects-container{
     display: flex;
-    align-items: center;
-    justify-content: end;
+    align-content: center;
+    justify-content: center;
 }
+    
+/* .projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+    /* justify-content: end;
+    background-image: url(./images/background-footer.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 .projects .projectitems{
-    color: #f9004d;   
+    color: #f9004d;
+    background-image: url(./images/retro-computer.jpg);
 }
 .projectbtn{
     text-decoration: none;
@@ -252,6 +262,8 @@ span{
     background-color: #f9004d;
     color: black;
 }
+
+
 
 .bars{
     margin-top: 1rem;
@@ -269,5 +281,3 @@ h4{
     } 
                 
 }
-
-
