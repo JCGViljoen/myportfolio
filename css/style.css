@@ -107,7 +107,6 @@ span{
     justify-content: center;
     background-color: black;
     color:beige;
-    padding-bottom: 10px;
 }
 
 
@@ -219,8 +218,8 @@ span{
     justify-content: space-around;
     height: 50vh;
     width: 100%;
-    padding-top: 2rem;
     background-color: black;
+
 }
 .contact-details{
     color: beige;
